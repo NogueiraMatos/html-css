@@ -1,0 +1,140 @@
+/* Geral */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3 {
+    color: #333333;
+}
+
+p {
+    color: #70747a;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #0da20a;
+}
+
+.nav-div-principal {
+    width: 1220px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    justify-content: left;
+}
+
+.nav-div-span {
+    width: 70%;
+    display: flex;
+    flex-shrink: 2;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.button {
+    display: flex;
+    color: #000;
+    align-items: center;
+    background-color: gold;
+    border-radius: 25px;
+    padding: 15px 10px;
+    margin-right: 10px;
+    flex-shrink: 1;
+    min-width: 210px;
+}
+
+.button:hover {
+    background-color: #ffec00;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.underline {
+    -webkit-text-decoration-color: #0da20a;
+    text-decoration-color: #0da20a;
+}
+
+.fa-angle-down {
+    color: #0da20a;
+    margin-left: 5px;
+}
+
+/* Banner */
+
+.banner {
+    height: 480px;
+    width: 100%;
+    background-image: url("/img/banner.jpg");
+    background-position: 50%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-div-principal {
+    display: flex;
+    justify-content: left;
+    width: 1220px;
+}
+
+.banner-div-text {
+    width: 430px;
+    padding-left: 10px;
+}
+
+.banner-li1 {
+    color: #0da20a;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.banner-li2 {
+    color: #0da20a;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -5px;
+}
+
+.banner-li3 {
+    font-weight: 700;
+}
+
+.banner-li4 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.banner-li5 {
+    color: #0da20a;
+    font-size: larger;
+}
+
+.banner-button{
+    max-width: 210px;
+    margin-bottom: 10px;
+}
+.planos-div-principal {
+    width: 1220px;
+}
