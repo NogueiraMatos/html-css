@@ -21,9 +21,17 @@
             <a href="#"><img src="img/logo.png" class="nav-logo"></a>
             <div class="nav-div-span">
                 <span>Ofertas válidas para <strong><u class="underline">Brasília - DF</u></strong></span>
-                <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fa-solid fa-angle-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#"> Brasília, DF </a>
+                        <a href="#"> Goiânia, GO </a>
+                        <a href="#"> Luziânia, GO </a>
+                        <a href="#"> Anápolis, GO </a>
+                    </div>
+                </div>
             </div>
-            <a href="#" class="button">Consultar disponibilidade</a>
+            <a href="#" id="nav-button" class="button">Consultar disponibilidade</a>
         </div>
     </nav>
     <section class="banner">
@@ -280,7 +288,7 @@
                         </div>
                     </div>
                     <div class="footer-socials">
-                        <span>Ir para o site do Matos</span>
+                        <span class="footer-socials-span">Ir para o site do Matos</span>
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-youtube"></i>
